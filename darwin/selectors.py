@@ -18,7 +18,7 @@ class SelectionOperator(object):
         raise NotImplementedError
 
 
-class RankSelector(SelectionOperator):
+class ThresholdSelector(SelectionOperator):
     def __init__(self, threshold, maximize):
         self.threshold = threshold
         self.maximize = maximize

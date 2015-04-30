@@ -11,7 +11,7 @@
         on operations
 """
 
-from selectors import RankSelector
+from selectors import ThresholdSelector
 from crossover import OnePointCrossover
 from chromosome import Chromosome
 import random
@@ -24,7 +24,7 @@ class GeneticAlgorithm(object):
         self.population_size = population_size
         self.genotype = sample_genotype
         self.crossover_rate = crossover_rate
-        self.selector = RankSelector(threshold, maximize)
+        self.selector = ThresholdSelector(threshold, maximize)
         self.crossover = OnePointCrossover()
         self.generations = []
 
