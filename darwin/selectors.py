@@ -18,9 +18,8 @@ class SelectionOperator(object):
         raise NotImplementedError
 
 
-class ThresholdSelector(SelectionOperator):
-    def __init__(self, threshold, maximize):
-        self.threshold = threshold
+class RankSelector(SelectionOperator):
+    def __init__(self, maximize):
         self.maximize = maximize
 
     def select_pairs(self, population):
@@ -30,8 +29,8 @@ class ThresholdSelector(SelectionOperator):
         # sort population by rank
         population.sort(key=lambda x: x.fitness, reverse=self.maximize)
 
-        # take individuals above threshold
-        parent_pool = population[0:self.threshold]
+        # select top half of the population
+        parent_pool = population[0:len(population)/2]
         # pair off
         parents = []
         while len(parents) < parent_size:
@@ -40,7 +39,6 @@ class ThresholdSelector(SelectionOperator):
             parent_1 = parent_pool[random_1]
             parent_2 = parent_pool[random_2]
             parents.append([parent_1, parent_2])
-
         return parents
 
 

@@ -26,4 +26,4 @@ The basics of darwin are really simple:
 
 ## 
 
-_Theoretical information of International Trade and of the mexican legislation  with help from Sandy Ortega <3_
+_Theoretical information of International Trade and of the mexican legislation  with help from Sandy Ortega :grin:_

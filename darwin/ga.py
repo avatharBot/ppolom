@@ -11,21 +11,25 @@
         on operations
 """
 
-from selectors import ThresholdSelector
+from selectors import RankSelector
 from crossover import OnePointCrossover
 from chromosome import Chromosome
+from mutation import Mutation
 import random
 
 
+from pprint import pprint
+
 class GeneticAlgorithm(object):
 
-    def __init__(self, population_size, sample_genotype, crossover_rate=0.6,
-             threshold=120, maximize=True):
+    def __init__(self, population_size, sample_genotype, crossover_rate=0.6, mutation_rate=0.4, maximize=True):
         self.population_size = population_size
         self.genotype = sample_genotype
         self.crossover_rate = crossover_rate
-        self.selector = ThresholdSelector(threshold, maximize)
+        self.mutation_rate = mutation_rate
+        self.selector = RankSelector(maximize)
         self.crossover = OnePointCrossover()
+        self.mutation = Mutation()
         self.generations = []
 
     def evolve(self, fitness_function, num_generations=10):
@@ -66,6 +70,9 @@ class GeneticAlgorithm(object):
                     # no crossover, add parents as is
                     next_population.append(parent[0])
                     next_population.append(parent[1])
+            do_mutation = random.random() > self.mutation_rate
+            if do_mutation:
+                next_population = self.mutation.mutate(self.genotype, next_population)
 
             population = next_population
         # returns last/best population
