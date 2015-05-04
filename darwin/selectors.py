@@ -1,3 +1,5 @@
+__author__ = 'avathar'
+
 import random
 
 

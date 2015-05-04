@@ -1,3 +1,4 @@
+__author__ = 'avathar'
 
 from selectors import RankSelector
 from crossover import OnePointCrossover

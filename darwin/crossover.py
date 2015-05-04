@@ -1,10 +1,5 @@
-"""
-    Crossover operators take 2 parent gene lists and return two child gene lists
+__author__ = 'avathar'
 
-    Input: 2 lists
-    Output: 2 lists
-
-"""
 import random
 
 

@@ -1,8 +1,5 @@
-"""
-    Properties:
-        labels: user friendly label for each gene
-        values: possible values for each gene
-"""
+__author__ = 'avathar'
+
 import random
 from chromosome import Chromosome
 
