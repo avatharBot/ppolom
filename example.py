@@ -1,8 +1,5 @@
 __author__ = 'avathar'
 
-
-import random
-
 from darwin.ga import GeneticAlgorithm
 from darwin.genotype import Genotype
 
