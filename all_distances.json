@@ -22,6 +22,10 @@
     "id": "AUS",
     "country": "Australia",
     "distance": 10150
+},  {
+    "id": "AUT",
+    "country": "Austria",
+    "distance": 10143
 }, {
     "id": "AZE",
     "country": "Azerbaijan",
@@ -34,6 +38,10 @@
     "id": "BEN",
     "country": "Benin",
     "distance": 11005
+}, {
+    "id": "BGR",
+    "country": "Bulgaria",
+    "distance": 10961
 }, {
     "id": "BLR",
     "country": "Belarus",
@@ -82,6 +90,10 @@
     "id": "CZE",
     "country": "Czech Republic",
     "distance": 9921
+}, {
+    "id": "DEU",
+    "country": "Germany",
+    "distance": 9709
 }, {
     "id": "DJI",
     "country": "Djibouti",
@@ -147,6 +159,10 @@
     "country": "Guyana",
     "distance": 4646
 }, {
+    "id": "HRV",
+    "country": "Croatia",
+    "distance": 10282
+}, {
     "id": "HUN",
     "country": "Hungary",
     "distance": 10387
@@ -192,7 +208,7 @@
     "distance": 12073
 }, {
     "id": "LAO",
-    "country": "Lao People 's Democratic Republic",
+    "country": "Lao People's Democratic Republic",
     "distance": 15288
 }, {
     "id": "LBR",
@@ -346,4 +362,81 @@
     "id": "YEM",
     "country": "Yemen",
     "distance": 14453
-}, ]
+}, {
+    "id": "SVK",
+    "country": "Slovakia",
+    "distance": 10219
+}, {
+    "id": "SVN",
+    "country": "Slovenia",
+    "distance": 10171
+}, {
+    "id": "ESP",
+    "country": "Spain",
+    "distance": 9505
+}, {
+    "id": "FRA",
+    "country": "France",
+    "distance": 9210
+}, {
+    "id": "IRL",
+    "country": "Ireland",
+    "distance": 8484
+}, {
+    "id": "LVA",
+    "country": "Latvia",
+    "distance": 10043
+}, {
+    "id": "LTU",
+    "country": "Lithuania",
+    "distance": 10259
+}, {
+    "id": "NLD",
+    "country": "Netherlands",
+    "distance": 9230
+}, {
+    "id": "PRT",
+    "country": "Portugal",
+    "distance": 8686
+}, {
+    "id": "GBR",
+    "country": "United Kingdom",
+    "distance": 8944
+}, {
+    "id": "ROU",
+    "country": "Romania",
+    "distance": 11021
+}, {
+    "id": "SWE",
+    "country": "Sweden",
+    "distance": 9600
+}, {
+    "id": "CHE",
+    "country": "Switzerland",
+    "distance": 9644
+}, {
+    "id": "ISL",
+    "country": "Iceland",
+    "distance": 7459
+}, {
+    "id": "URY",
+    "country": "Uruguay",
+    "distance": 7532
+}, {
+    "id": "GTM",
+    "country": "Guatemala",
+    "distance": 1059
+}, {
+    "id": "HND",
+    "country": "Honduras",
+    "distance": 1399
+}, {
+    "id": "CRI",
+    "country": "Costa Rica",
+    "distance": 1929
+}, {
+    "id": "DNK",
+    "country": "Denmark",
+    "distance": 9525
+}
+]

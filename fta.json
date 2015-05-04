@@ -1,0 +1,71 @@
+{
+    "TLCAN": [
+        "USA",
+        "CAN"
+    ],
+    "COLOMBIA": [
+        "COL"
+    ],
+    "DECISIÓN 2/2000 UNIÓN EUROPEA": [
+        "DEU",
+        "AUT",
+        "BEL",
+        "BGR",
+        "CYP",
+        "HRV",
+        "DNK",
+        "SVK",
+        "SVN",
+        "ESP",
+        "EST",
+        "FIN",
+        "FRA",
+        "GRC",
+        "HUN",
+        "IRL",
+        "ITA",
+        "LVA",
+        "LTU",
+        "LUX",
+        "MLT",
+        "NLD",
+        "POL",
+        "PRT",
+        "GBR",
+        "CZE",
+        "ROU",
+        "SWE"
+    ],
+    "CHILE": [
+        "CHL"
+    ],
+    "ISRAEL": [
+        "ISR"
+    ],
+    "AELC": [
+        "NOR",
+        "che",
+        "ISL",
+        "LIE"
+    ],
+    "URUGUAY (ACE 60)": [
+        "URY"
+    ],
+    "JAPÓN": [
+        "JPN"
+    ],
+    "ACE 66": [
+        "BOL"
+    ],
+    "PERÚ (67)": [
+        "PER"
+    ],
+    "TLC ÚNICO CON CENTRO AMÉRICA": [
+        "GTM",
+        "HND",
+        "SLV",
+        "CRI",
+        "NIC"
+    ]
+}
+
