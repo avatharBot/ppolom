@@ -67,7 +67,10 @@ class GeneticAlgorithm(object):
                     next_population.append(parent[1])
 
             population = next_population
-        # returns last/best population
+
+        # calculate fitness for last generation
+        for chromosome in population:
+            chromosome.fitness = fitness_function(chromosome)
         return population
 
     def best_individual(self, population):
