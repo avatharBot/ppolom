@@ -1,15 +1,3 @@
-"""
-    GeneticAlgorithm operates over populations of chromosomes
-
-    Properties:
-        population_size: # chromosomes in populations
-        genotype: structure of each chromosome
-        generations: list of successive populations
-
-    Methods:
-        fit: runs the genetic algorithm, using selection, crossover, and mutati
-        on operations
-"""
 
 from selectors import RankSelector
 from crossover import OnePointCrossover
@@ -18,11 +6,10 @@ from mutation import Mutation
 import random
 
 
-from pprint import pprint
-
 class GeneticAlgorithm(object):
 
-    def __init__(self, population_size, sample_genotype, crossover_rate=0.6, mutation_rate=0.4, maximize=True):
+    def __init__(self, population_size, sample_genotype, crossover_rate=0.6,
+                 mutation_rate=0.2, maximize=True):
         self.population_size = population_size
         self.genotype = sample_genotype
         self.crossover_rate = crossover_rate
@@ -31,6 +18,7 @@ class GeneticAlgorithm(object):
         self.crossover = OnePointCrossover()
         self.mutation = Mutation()
         self.generations = []
+        self.maximize = maximize
 
     def evolve(self, fitness_function, num_generations=10):
         # initialize population
@@ -45,12 +33,18 @@ class GeneticAlgorithm(object):
             self.generations.append(population)
             next_population = []
 
-            # calculate fitness function
+            # calculate fitness for population
             for chromosome in population:
                 chromosome.fitness = fitness_function(chromosome)
 
-            # select parents for next generation
+            # select parents for generation
             parents = self.selector.select_pairs(population=population)
+
+            # do mutation
+            do_mutation = random.random() > self.mutation_rate
+            if do_mutation:
+                next_population = self.mutation.mutate(self.genotype,
+                                                       next_population)
 
             # perform crossover
             for parent in parents:
@@ -70,10 +64,18 @@ class GeneticAlgorithm(object):
                     # no crossover, add parents as is
                     next_population.append(parent[0])
                     next_population.append(parent[1])
-            do_mutation = random.random() > self.mutation_rate
-            if do_mutation:
-                next_population = self.mutation.mutate(self.genotype, next_population)
 
             population = next_population
         # returns last/best population
         return population
+
+    def best_individual(self, population):
+        population.sort(key=lambda x: x.fitness, reverse=self.maximize)
+
+        best_individual = population[0]
+
+        fittest = list()
+        for i in range(len(best_individual.genes)):
+            fittest.append((self.genotype.get_label_at(i), best_individual.genes[i]))
+
+        return fittest

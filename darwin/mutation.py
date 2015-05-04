@@ -10,7 +10,7 @@ class Mutation(object):
 
     def mutate(self, genotype, population):
         """
-            Mutate a third of the population at indexes
+            Mutate a third of the population at random indexes
         """
         pop_size = len(population)
         indexes = random.sample([_ for _ in range(pop_size)], pop_size/3)
