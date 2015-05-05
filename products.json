@@ -1,0 +1,832 @@
+[
+
+    {
+        "product": "Vacas Lecheras",
+        "fraction": "0102.90.01",
+        "partida": "0.102",
+        "tax": 0,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Leche y nata",
+        "fraction": "0401.10.01",
+        "partida": "0.401",
+        "tax": 10,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Queso y requesón",
+        "fraction": "0406.10.01",
+        "partida": "0.406",
+        "tax": 10,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Huevo",
+        "fraction": "0407.00.01",
+        "partida": "0.407",
+        "tax": 45,
+        "fta": [{
+            "ACE 66": 30,
+            "ISRAEL": 25,
+            "TLCAN": 15,
+            "COLOMBIA": 15,
+            "UE": 20,
+            "PERÚ": 30,
+            "URUGUAY": 25,
+            "CENTRO AMÉRICA": 30,
+            "CHILE": 25,
+            "JAPÓN": 25,
+            "AELC": 20
+        }]
+    }, {
+        "product": "Frijol",
+        "fraction": "0708.20.01",
+        "partida": "0.708",
+        "tax": 10,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Aguacate",
+        "fraction": "0804.40.01",
+        "partida": "0.804",
+        "tax": 20,
+        "fta": [{
+            "ACE 66": 20,
+            "ISRAEL": 20,
+            "TLCAN": 20,
+            "COLOMBIA": 20,
+            "UE": 20,
+            "PERÚ": 20,
+            "URUGUAY": 20,
+            "CENTRO AMÉRICA": 20,
+            "CHILE": 20,
+            "JAPÓN": 20,
+            "AELC": 20
+        }]
+    }, {
+        "product": "Uvas frescas",
+        "fraction": "0806.10.01",
+        "partida": "0.806",
+        "tax": 45,
+        "fta": [{
+            "ACE 66": 30,
+            "ISRAEL": 25,
+            "TLCAN": 15,
+            "COLOMBIA": 15,
+            "UE": 25,
+            "PERÚ": 30,
+            "URUGUAY": 25,
+            "CENTRO AMÉRICA": 30,
+            "CHILE": 20,
+            "JAPÓN": 25,
+            "AELC": 25
+        }]
+    }, {
+        "product": "Manzanas, peras y membrillos",
+        "fraction": "0808.10.01",
+        "partida": "0.808",
+        "tax": 20,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Café tostado o descafeinado",
+        "fraction": "0901.22.01",
+        "partida": "0.901",
+        "tax": 72,
+        "fta": [{
+            "ACE 66": 50,
+            "ISRAEL": 30,
+            "TLCAN": 25,
+            "COLOMBIA": 25,
+            "UE": 30,
+            "PERÚ": 50,
+            "URUGUAY": 35,
+            "CENTRO AMÉRICA": 50,
+            "CHILE": 35,
+            "JAPÓN": 35,
+            "AELC": 30
+        }]
+    }, {
+        "product": "Té",
+        "fraction": "0902.10.01",
+        "partida": "0.902",
+        "tax": 20,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Pimienta, chiles o pimientos secos",
+        "fraction": "0904.11.01",
+        "partida": "0.904",
+        "tax": 20,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Trigo",
+        "fraction": "1001.90.01",
+        "partida": "10.01",
+        "tax": 67,
+        "fta": [{
+            "ACE 66": 67,
+            "ISRAEL": 67,
+            "TLCAN": 67,
+            "COLOMBIA": 67,
+            "UE": 67,
+            "PERÚ": 67,
+            "URUGUAY": 67,
+            "CENTRO AMÉRICA": 67,
+            "CHILE": 67,
+            "JAPÓN": 67,
+            "AELC": 67
+        }]
+    }, {
+        "product": "Maíz amarillo o blanco",
+        "fraction": "1005.90.03",
+        "partida": "10.05",
+        "tax": 194,
+        "fta": [{
+            "ACE 66": 194,
+            "ISRAEL": 194,
+            "TLCAN": 194,
+            "COLOMBIA": 194,
+            "UE": 194,
+            "PERÚ": 194,
+            "URUGUAY": 194,
+            "CENTRO AMÉRICA": 194,
+            "CHILE": 194,
+            "JAPÓN": 194,
+            "AELC": 194
+        }]
+    }, {
+        "product": "Arroz sin cáscara",
+        "fraction": "1006.20.01",
+        "partida": "10.06",
+        "tax": 20,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Sorgo",
+        "fraction": "1007.00.02",
+        "partida": "10.07",
+        "tax": 15,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Semillas de nabo o colza",
+        "fraction": "1205.10.01",
+        "partida": "12.05",
+        "tax": 0,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Estómago de animales, excepto pescado",
+        "fraction": "1602.90.99",
+        "partida": "16.02",
+        "tax": 20,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Brandy",
+        "fraction": "2208.20.02",
+        "partida": "22.08",
+        "tax": 53,
+        "fta": [{
+            "ACE 66": 53,
+            "ISRAEL": 53,
+            "TLCAN": 53,
+            "COLOMBIA": 53,
+            "UE": 53,
+            "PERÚ": 53,
+            "URUGUAY": 53,
+            "CENTRO AMÉRICA": 53,
+            "CHILE": 53,
+            "JAPÓN": 53,
+            "AELC": 53
+        }]
+    }, {
+        "product": "Tabaco sin elaborar o para envoltura",
+        "fraction": "2401.20.99",
+        "partida": "24.01",
+        "tax": 45,
+        "fta": [{
+            "ACE 66": 45,
+            "ISRAEL": 45,
+            "TLCAN": 45,
+            "COLOMBIA": 45,
+            "UE": 45,
+            "PERÚ": 45,
+            "URUGUAY": 45,
+            "CENTRO AMÉRICA": 45,
+            "CHILE": 45,
+            "JAPÓN": 45,
+            "AELC": 45
+        }]
+    }, {
+        "product": "Cigarros",
+        "fraction": "2402.20.01",
+        "partida": "24.02",
+        "tax": 160,
+        "fta": [{
+            "ACE 66": 160,
+            "ISRAEL": 160,
+            "TLCAN": 160,
+            "COLOMBIA": 160,
+            "UE": 160,
+            "PERÚ": 160,
+            "URUGUAY": 160,
+            "CENTRO AMÉRICA": 160,
+            "CHILE": 160,
+            "JAPÓN": 160,
+            "AELC": 160
+        }]
+    }, {
+        "product": "Aceites de petróleo excepto crudos",
+        "fraction": "2710.11.03",
+        "partida": "27.1",
+        "tax": 7,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Gas de petróleo, hidrocarburos gaseosos",
+        "fraction": "2711.11.01",
+        "partida": "27.11",
+        "tax": 0,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Poliésteres, resinas epóxicas",
+        "fraction": "3907.10.03",
+        "partida": "39.07",
+        "tax": 10,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Envases de plástico",
+        "fraction": "3923.10.01",
+        "partida": "39.23",
+        "tax": 20,
+        "fta": [{
+            "ACE 66": 10,
+            "ISRAEL": 7,
+            "TLCAN": 7,
+            "COLOMBIA": 7,
+            "UE": 7,
+            "PERÚ": 10,
+            "URUGUAY": 7,
+            "CENTRO AMÉRICA": 10,
+            "CHILE": 7,
+            "JAPÓN": 7,
+            "AELC": 7
+        }]
+    }, {
+        "product": "Partes para muebles, autos, vestidos plásticos",
+        "fraction": "3926.10.01",
+        "partida": "39.26",
+        "tax": 20,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Blusas de seda",
+        "fraction": "6206.10.01",
+        "partida": "62.06",
+        "tax": 35,
+        "fta": [{
+            "ACE 66": 15,
+            "ISRAEL": 7,
+            "TLCAN": 7,
+            "COLOMBIA": 7,
+            "UE": 7,
+            "PERÚ": 15,
+            "URUGUAY": 7,
+            "CENTRO AMÉRICA": 15,
+            "CHILE": 10,
+            "JAPÓN": 7,
+            "AELC": 7
+        }]
+    }, {
+        "product": "Calzado para mujer",
+        "fraction": "6404.20.01",
+        "partida": "64.04",
+        "tax": 35,
+        "fta": [{
+            "ACE 66": 20,
+            "ISRAEL": 15,
+            "TLCAN": 10,
+            "COLOMBIA": 10,
+            "UE": 15,
+            "PERÚ": 20,
+            "URUGUAY": 15,
+            "CENTRO AMÉRICA": 20,
+            "CHILE": 15,
+            "JAPÓN": 15,
+            "AELC": 15
+        }]
+    }, {
+        "product": "Motores de diesel",
+        "fraction": "8408.10.99",
+        "partida": "84.08",
+        "tax": 7,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Bombas de aire o de vacío",
+        "fraction": "8414.30.01",
+        "partida": "84.14",
+        "tax": 20,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Máquinaria para reparación calzado",
+        "fraction": "8453.20.01",
+        "partida": "84.53",
+        "tax": 0,
+        "fta": [{
+            "ACE 66": 0,
+            "ISRAEL": 0,
+            "TLCAN": 0,
+            "COLOMBIA": 0,
+            "UE": 0,
+            "PERÚ": 0,
+            "URUGUAY": 0,
+            "CENTRO AMÉRICA": 0,
+            "CHILE": 0,
+            "JAPÓN": 0,
+            "AELC": 0
+        }]
+    }, {
+        "product": "Máquinas para el procesamiento de datos",
+        "fraction": "8471.41.01",
+        "partida": "84.71",
+        "tax": 0,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Partes y accesorios para máquinas y aparatos de oficina",
+        "fraction": "8473.10.99",
+        "partida": "84.73",
+        "tax": 7,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Artículos de grifería",
+        "fraction": "8481.10.01",
+        "partida": "84.81",
+        "tax": 10,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Transformadores eléctricos",
+        "fraction": "8504.21.01",
+        "partida": "85.04",
+        "tax": 10,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Aparatos eléctricos de telefonía o telegrafía",
+        "fraction": "8517.11.01",
+        "partida": "85.17",
+        "tax": 20,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": 7,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": 7,
+            "AELC": 7
+        }]
+    }, {
+        "product": "Partes para grabadores y emisores de televisión",
+        "fraction": "8529.10.07",
+        "partida": "85.29",
+        "tax": 10,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Aparatos para corte o conexión de circuitos eléctricos",
+        "fraction": "8536.30.02",
+        "partida": "85.36",
+        "tax": 10,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Circuitos microestructuras electrónicas",
+        "fraction": "8542.31.01",
+        "partida": "85.42",
+        "tax": 0,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Conductores aislados para electricidad",
+        "fraction": "8544.19.01",
+        "partida": "85.44",
+        "tax": 10,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Tractores",
+        "fraction": "8701.20.01",
+        "partida": "87.01",
+        "tax": 50,
+        "fta": [{
+            "ACE 66": 30,
+            "ISRAEL": 20,
+            "TLCAN": 15,
+            "COLOMBIA": 15,
+            "UE": 20,
+            "PERÚ": 30,
+            "URUGUAY": 25,
+            "CENTRO AMÉRICA": 30,
+            "CHILE": 30,
+            "JAPÓN": 25,
+            "AELC": 20
+        }]
+    }, {
+        "product": "Vehículos para transporte de mercancías",
+        "fraction": "8704.21.03",
+        "partida": "87.04",
+        "tax": 50,
+        "fta": [{
+            "ACE 66": 30,
+            "ISRAEL": 20,
+            "TLCAN": 15,
+            "COLOMBIA": 15,
+            "UE": 20,
+            "PERÚ": 30,
+            "URUGUAY": 25,
+            "CENTRO AMÉRICA": 30,
+            "CHILE": 25,
+            "JAPÓN": 25,
+            "AELC": 20
+        }]
+    }, {
+        "product": "Partes y accesorios de vehículos",
+        "fraction": "8708.10.03",
+        "partida": "87.08",
+        "tax": 10,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Dispositivos de cristal líquido",
+        "fraction": "9013.20.01",
+        "partida": "90.13",
+        "tax": 0,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Aparatos de medicina o veterinaria",
+        "fraction": "9018.13.01",
+        "partida": "90.18",
+        "tax": 7,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Instrumentos para control de fluidos",
+        "fraction": "9026.10.01",
+        "partida": "90.26",
+        "tax": 7,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }, {
+        "product": "Instrumentos y aparatos para análisis físicos o químicos",
+        "fraction": "9027.10.01",
+        "partida": "90.27",
+        "tax": 0,
+        "fta": [{
+            "ACE 66": null,
+            "ISRAEL": null,
+            "TLCAN": null,
+            "COLOMBIA": null,
+            "UE": null,
+            "PERÚ": null,
+            "URUGUAY": null,
+            "CENTRO AMÉRICA": null,
+            "CHILE": null,
+            "JAPÓN": null,
+            "AELC": null
+        }]
+    }
+]

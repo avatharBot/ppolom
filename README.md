@@ -19,9 +19,9 @@ _I may separate darwin on a different repository. For now, it stays here._
 
 The basics of Darwin are really simple:
 
-*   You must define a list of labels and possible values for each label
-*   You must define a fitness function
-*   It uses a Rank Selector to select best individuals from a generation (only the top half chromosomes survive each generation)
+*   Define a list of labels and possible values for each label
+*   Define a fitness function
+*   A Rank Selector is used to select best individuals from a generation (only the top half chromosomes survive each generation)
 *   A random-sized Crossover operation is used (based on a crossover rate)
 *   A simple Mutation operation is used (mutates a third of the population based on a mutation rate)
 
@@ -31,4 +31,5 @@ The basics of Darwin are really simple:
 
 
 _This project was created for both «Artificial Intelligence» and «Optimization and Linear Programming» courses on Spring'15 at Tecnológico de Monterrey, campus Querétaro by me._
+
 _Theoretical information of International Trade and of the mexican legislation  with help from Sandy Ortega :grin: Thank you!_

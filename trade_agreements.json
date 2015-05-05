@@ -6,7 +6,7 @@
     "COLOMBIA": [
         "COL"
     ],
-    "DECISIÓN 2/2000 UNIÓN EUROPEA": [
+    "UE": [
         "DEU",
         "AUT",
         "BEL",
@@ -48,7 +48,7 @@
         "ISL",
         "LIE"
     ],
-    "URUGUAY (ACE 60)": [
+    "URUGUAY": [
         "URY"
     ],
     "JAPÓN": [
@@ -57,10 +57,10 @@
     "ACE 66": [
         "BOL"
     ],
-    "PERÚ (67)": [
+    "PERÚ": [
         "PER"
     ],
-    "TLC ÚNICO CON CENTRO AMÉRICA": [
+    "CENTRO AMÉRICA": [
         "GTM",
         "HND",
         "SLV",

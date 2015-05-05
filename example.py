@@ -3,6 +3,7 @@ __author__ = 'avathar'
 from darwin.ga import GeneticAlgorithm
 from darwin.genotype import Genotype
 
+
 def fitness(chromosome):
     value = 0
     for locus in chromosome.genes:
@@ -10,7 +11,7 @@ def fitness(chromosome):
     return value
 
 
-def main():
+def darwin_test():
     labels = ['slot 1', 'slot 2', 'slot 3', 'slot 4']
     values = [
         [i for i in range(10)],
@@ -36,4 +37,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    darwin_test()
