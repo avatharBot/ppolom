@@ -40,13 +40,6 @@ class GeneticAlgorithm(object):
 
             # select parents for generation
             parents = self.selector.select_pairs(population=population)
-
-            # do mutation
-            do_mutation = random.random() > self.mutation_rate
-            if do_mutation:
-                next_population = self.mutation.mutate(self.genotype,
-                                                       next_population)
-
             # perform crossover
             for parent in parents:
                 do_crossover = random.random() < self.crossover_rate
@@ -66,6 +59,12 @@ class GeneticAlgorithm(object):
                     next_population.append(parent[0])
                     next_population.append(parent[1])
 
+            # do mutation
+            do_mutation = random.random() > self.mutation_rate
+            if do_mutation:
+                next_population = self.mutation.mutate(self.genotype,
+                                                       next_population)
+
             population = next_population
 
         # calculate fitness for last generation
@@ -78,8 +77,8 @@ class GeneticAlgorithm(object):
 
         best_individual = population[0]
 
-        fittest = list()
+        fittest = dict()
         for i in range(len(best_individual.genes)):
-            fittest.append((self.genotype.get_label_at(i), best_individual.genes[i]))
+            fittest[self.genotype.get_label_at(i)] = best_individual.genes[i]
 
         return fittest

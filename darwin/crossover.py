@@ -34,4 +34,3 @@ class OnePointCrossover(CrossOver):
         child_2 = list_2[0:crossover_point] + list_1[crossover_point:]
 
         return child_1, child_2
-
