@@ -1,0 +1,50 @@
+[{
+    "fraction": "0406.10.01",
+    "quota": {
+        "CENTRO AMÉRICA": 399161
+    }
+}, {
+    "fraction": "0407.00.01",
+    "quota": 19141598
+}, {
+    "fraction": "0804.40.01",
+    "quota": {
+        "PERÚ": 453592
+    }
+}, {
+    "fraction": "0808.10.01",
+    "quota": {
+        "JAPÓN": 453592
+    }
+}, {
+    "fraction": "0902.10.01",
+    "quota": {
+        "JAPÓN": 453592
+    }
+}, {
+    "fraction": "0904.11.01",
+    "quota": 2721
+}, {
+    "fraction": "1005.90.03",
+    "quota": {
+        "PERÚ": 90718474,
+        "CENTRO AMÉRICA": 108862169
+    }
+}, {
+    "fraction": "2402.20.01",
+    "quota": {
+        "CENTRO AMÉRICA": 1312
+    }
+}, {
+    "fraction": "6404.20.01",
+    "quota": {
+        "PERÚ": 200000,
+        "UE": 120000
+    }
+}, {
+    "fraction": "9013.20.01",
+    "quota": 25000
+}, {
+    "fraction": "9026.10.01",
+    "quota": 7257478
+}]

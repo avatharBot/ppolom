@@ -11,7 +11,7 @@ global trade_agreements
 
 
 def read_distance():
-    with open('all_distances.json', 'r') as input_file:
+    with open('distances.json', 'r') as input_file:
         distances = json.load(input_file)
         data = {}
         for country in distances:
@@ -23,7 +23,7 @@ def read_distance():
 
 
 def read_fta():
-    with open('fta.json', 'r') as input_file:
+    with open('trade_agreements.json', 'r') as input_file:
         return json.load(input_file)
 
 
