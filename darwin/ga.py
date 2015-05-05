@@ -60,7 +60,7 @@ class GeneticAlgorithm(object):
                     next_population.append(parent[1])
 
             # do mutation
-            do_mutation = random.random() > self.mutation_rate
+            do_mutation = random.random() < self.mutation_rate
             if do_mutation:
                 next_population = self.mutation.mutate(self.genotype,
                                                        next_population)

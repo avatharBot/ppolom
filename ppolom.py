@@ -6,8 +6,11 @@ from darwin.ga import GeneticAlgorithm
 from darwin.genotype import Genotype
 
 
-global country_distance
-global trade_agreements
+distances = list()
+trade_agreements = list()
+quotas = list()
+products = list()
+item = '0708.20.01'
 
 
 def read_distance():
@@ -22,51 +25,74 @@ def read_distance():
         return data
 
 
-def read_fta():
-    with open('trade_agreements.json', 'r') as input_file:
+def read_file(filename):
+    with open(filename, 'r') as input_file:
         return json.load(input_file)
 
 
 def fitness_function(chromosome):
-    dec_value = 0
-    global country_distance
+    fitness_value = 0
+    global distances
     global trade_agreements
+    global quotas
+    global products
+    global item
     country_code = chromosome.genes[0]
     quantity = chromosome.genes[1]
-    dec_value += country_distance[country_code]['distance']
-    dec_value += quantity
+    tax = 0
+    item_fta = None
+    item_quota = 0
+    # get distance to country
+    country_distance = distances[country_code]['distance']
+    # find tax for product
+    for fta, countries in trade_agreements.items():
+        if country_code in countries:
+            tax = products[item]['fta'][fta]
+            item_fta = fta
+        else:
+            tax = products[item]['tax']
+    if tax is None:
+        tax = products[item]['tax']
+    if item in quotas:
+        item_quota = quotas[item]['quota']
+        if not isinstance(item_quota, int):
+            if item_fta is not None and item_fta in item_quota:
+                item_quota = quotas[item]['quota'][item_fta]
+            else:
+                item_quota = 0
 
-    for trade, countries in trade_agreements.items():
-        if country_code not in countries:
-            dec_value += 100000
-
-    return dec_value
+    quota_delta = abs(item_quota - quantity)
+    fitness_value = country_distance + quota_delta + (tax*quota_delta)
+    return fitness_value
 
 
 def main():
-
-    global country_distance
+    global distances
     global trade_agreements
-    country_distance = read_distance()
-    trade_agreements = read_fta()
+    global quotas
+    global products
+    distances = read_distance()
+    trade_agreements = read_file('trade_agreements.json')
+    quotas = read_file('quotas.json')
+    products = read_file('products.json')
 
     labels = [
         'code',
         'units',
     ]
     values = [
-        [code for code in country_distance.keys()],
-        [i for i in range(0, 100000, 1000)]
+        [code for code in distances.keys()],
+        [i for i in range(1000, 10000000, 1000)]
     ]
 
     sample = Genotype(labels, values)
-    ga = GeneticAlgorithm(population_size=500,
+    ga = GeneticAlgorithm(population_size=200,
                           sample_genotype=sample,
                           crossover_rate=0.6,
-                          mutation_rate=0.4,
-                          maximize=True)
+                          mutation_rate=0.02,
+                          maximize=False)
     best_generation = ga.evolve(fitness_function=fitness_function,
-                                num_generations=6)
+                                num_generations=500)
 
     print "Best Generation "
     all_fitness = []
@@ -80,7 +106,7 @@ def main():
 
     fittest = ga.best_individual(best_generation)
     print " Values for fittest individual"
-    print "\tcountry:", country_distance[fittest['code']]['country']
+    print "\tcountry:", distances[fittest['code']]['country']
     print "\tunits:", fittest['units']
 
 if __name__ == '__main__':

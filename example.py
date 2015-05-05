@@ -24,7 +24,7 @@ def darwin_test():
     ga = GeneticAlgorithm(population_size=50,
                           sample_genotype=sample,
                           crossover_rate=0.6,
-                          mutation_rate=0.2,
+                          mutation_rate=0.02,
                           maximize=True)
     best_generation = ga.evolve(fitness_function=fitness,
                                 num_generations=5000)
@@ -32,8 +32,8 @@ def darwin_test():
     fittest = ga.best_individual(best_generation)
 
     print " Values for fittest "
-    for locus in fittest:
-        print locus[0], locus[1]
+    for key, value in fittest.items():
+        print key, value
 
 
 if __name__ == '__main__':
