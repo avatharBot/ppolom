@@ -1,10 +1,9 @@
-[
-    {
+{
+    "0102.90.01": {
         "product": "Vacas Lecheras",
-        "fraction": "0102.90.01",
-        "partida": "0.102",
+        "subheader": "0.102",
         "tax": 0,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -16,13 +15,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "0401.10.01": {
         "product": "Leche y nata",
-        "fraction": "0401.10.01",
-        "partida": "0.401",
+        "subheader": "0.401",
         "tax": 10,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -34,13 +33,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "0406.10.01": {
         "product": "Queso y requesón",
-        "fraction": "0406.10.01",
-        "partida": "0.406",
+        "subheader": "0.406",
         "tax": 10,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -52,13 +51,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "0407.00.01": {
         "product": "Huevo",
-        "fraction": "0407.00.01",
-        "partida": "0.407",
+        "subheader": "0.407",
         "tax": 45,
-        "fta": [{
+        "fta": {
             "ACE 66": 30,
             "ISRAEL": 25,
             "TLCAN": 15,
@@ -70,13 +69,13 @@
             "CHILE": 25,
             "JAPÓN": 25,
             "AELC": 20
-        }]
-    }, {
+        }
+    },
+    "0708.20.01": {
         "product": "Frijol",
-        "fraction": "0708.20.01",
-        "partida": "0.708",
+        "subheader": "0.708",
         "tax": 10,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -88,13 +87,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "0804.40.01": {
         "product": "Aguacate",
-        "fraction": "0804.40.01",
-        "partida": "0.804",
+        "subheader": "0.804",
         "tax": 20,
-        "fta": [{
+        "fta": {
             "ACE 66": 20,
             "ISRAEL": 20,
             "TLCAN": 20,
@@ -106,13 +105,13 @@
             "CHILE": 20,
             "JAPÓN": 20,
             "AELC": 20
-        }]
-    }, {
+        }
+    },
+    "0806.10.01": {
         "product": "Uvas frescas",
-        "fraction": "0806.10.01",
-        "partida": "0.806",
+        "subheader": "0.806",
         "tax": 45,
-        "fta": [{
+        "fta": {
             "ACE 66": 30,
             "ISRAEL": 25,
             "TLCAN": 15,
@@ -124,13 +123,13 @@
             "CHILE": 20,
             "JAPÓN": 25,
             "AELC": 25
-        }]
-    }, {
+        }
+    },
+    "0808.10.01": {
         "product": "Manzanas, peras y membrillos",
-        "fraction": "0808.10.01",
-        "partida": "0.808",
+        "subheader": "0.808",
         "tax": 20,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -142,13 +141,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "0901.22.01": {
         "product": "Café tostado o descafeinado",
-        "fraction": "0901.22.01",
-        "partida": "0.901",
+        "subheader": "0.901",
         "tax": 72,
-        "fta": [{
+        "fta": {
             "ACE 66": 50,
             "ISRAEL": 30,
             "TLCAN": 25,
@@ -160,13 +159,13 @@
             "CHILE": 35,
             "JAPÓN": 35,
             "AELC": 30
-        }]
-    }, {
+        }
+    },
+    "0902.10.01": {
         "product": "Té",
-        "fraction": "0902.10.01",
-        "partida": "0.902",
+        "subheader": "0.902",
         "tax": 20,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -178,13 +177,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "0904.11.01": {
         "product": "Pimienta, chiles o pimientos secos",
-        "fraction": "0904.11.01",
-        "partida": "0.904",
+        "subheader": "0.904",
         "tax": 20,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -196,13 +195,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "1001.90.01": {
         "product": "Trigo",
-        "fraction": "1001.90.01",
-        "partida": "10.01",
+        "subheader": "10.01",
         "tax": 67,
-        "fta": [{
+        "fta": {
             "ACE 66": 67,
             "ISRAEL": 67,
             "TLCAN": 67,
@@ -214,13 +213,13 @@
             "CHILE": 67,
             "JAPÓN": 67,
             "AELC": 67
-        }]
-    }, {
+        }
+    },
+    "1005.90.03": {
         "product": "Maíz amarillo o blanco",
-        "fraction": "1005.90.03",
-        "partida": "10.05",
+        "subheader": "10.05",
         "tax": 194,
-        "fta": [{
+        "fta": {
             "ACE 66": 194,
             "ISRAEL": 194,
             "TLCAN": 194,
@@ -232,13 +231,13 @@
             "CHILE": 194,
             "JAPÓN": 194,
             "AELC": 194
-        }]
-    }, {
+        }
+    },
+    "1006.20.01": {
         "product": "Arroz sin cáscara",
-        "fraction": "1006.20.01",
-        "partida": "10.06",
+        "subheader": "10.06",
         "tax": 20,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -250,13 +249,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "1007.00.02": {
         "product": "Sorgo",
-        "fraction": "1007.00.02",
-        "partida": "10.07",
+        "subheader": "10.07",
         "tax": 15,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -268,13 +267,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "1205.10.01": {
         "product": "Semillas de nabo o colza",
-        "fraction": "1205.10.01",
-        "partida": "12.05",
+        "subheader": "12.05",
         "tax": 0,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -286,13 +285,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "1602.90.99": {
         "product": "Estómago de animales, excepto pescado",
-        "fraction": "1602.90.99",
-        "partida": "16.02",
+        "subheader": "16.02",
         "tax": 20,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -304,13 +303,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "2208.20.02": {
         "product": "Brandy",
-        "fraction": "2208.20.02",
-        "partida": "22.08",
+        "subheader": "22.08",
         "tax": 53,
-        "fta": [{
+        "fta": {
             "ACE 66": 53,
             "ISRAEL": 53,
             "TLCAN": 53,
@@ -322,13 +321,13 @@
             "CHILE": 53,
             "JAPÓN": 53,
             "AELC": 53
-        }]
-    }, {
+        }
+    },
+    "2401.20.99": {
         "product": "Tabaco sin elaborar o para envoltura",
-        "fraction": "2401.20.99",
-        "partida": "24.01",
+        "subheader": "24.01",
         "tax": 45,
-        "fta": [{
+        "fta": {
             "ACE 66": 45,
             "ISRAEL": 45,
             "TLCAN": 45,
@@ -340,13 +339,13 @@
             "CHILE": 45,
             "JAPÓN": 45,
             "AELC": 45
-        }]
-    }, {
+        }
+    },
+    "2402.20.01": {
         "product": "Cigarros",
-        "fraction": "2402.20.01",
-        "partida": "24.02",
+        "subheader": "24.02",
         "tax": 160,
-        "fta": [{
+        "fta": {
             "ACE 66": 160,
             "ISRAEL": 160,
             "TLCAN": 160,
@@ -358,13 +357,13 @@
             "CHILE": 160,
             "JAPÓN": 160,
             "AELC": 160
-        }]
-    }, {
+        }
+    },
+    "2710.11.03": {
         "product": "Aceites de petróleo excepto crudos",
-        "fraction": "2710.11.03",
-        "partida": "27.1",
+        "subheader": "27.1",
         "tax": 7,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -376,13 +375,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "2711.11.01": {
         "product": "Gas de petróleo, hidrocarburos gaseosos",
-        "fraction": "2711.11.01",
-        "partida": "27.11",
+        "subheader": "27.11",
         "tax": 0,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -394,13 +393,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "3907.10.03": {
         "product": "Poliésteres, resinas epóxicas",
-        "fraction": "3907.10.03",
-        "partida": "39.07",
+        "subheader": "39.07",
         "tax": 10,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -412,13 +411,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "3923.10.01": {
         "product": "Envases de plástico",
-        "fraction": "3923.10.01",
-        "partida": "39.23",
+        "subheader": "39.23",
         "tax": 20,
-        "fta": [{
+        "fta": {
             "ACE 66": 10,
             "ISRAEL": 7,
             "TLCAN": 7,
@@ -430,13 +429,13 @@
             "CHILE": 7,
             "JAPÓN": 7,
             "AELC": 7
-        }]
-    }, {
+        }
+    },
+    "3926.10.01": {
         "product": "Partes para muebles, autos, vestidos plásticos",
-        "fraction": "3926.10.01",
-        "partida": "39.26",
+        "subheader": "39.26",
         "tax": 20,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -448,13 +447,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "6206.10.01": {
         "product": "Blusas de seda",
-        "fraction": "6206.10.01",
-        "partida": "62.06",
+        "subheader": "62.06",
         "tax": 35,
-        "fta": [{
+        "fta": {
             "ACE 66": 15,
             "ISRAEL": 7,
             "TLCAN": 7,
@@ -466,13 +465,13 @@
             "CHILE": 10,
             "JAPÓN": 7,
             "AELC": 7
-        }]
-    }, {
+        }
+    },
+    "6404.20.01": {
         "product": "Calzado para mujer",
-        "fraction": "6404.20.01",
-        "partida": "64.04",
+        "subheader": "64.04",
         "tax": 35,
-        "fta": [{
+        "fta": {
             "ACE 66": 20,
             "ISRAEL": 15,
             "TLCAN": 10,
@@ -484,13 +483,13 @@
             "CHILE": 15,
             "JAPÓN": 15,
             "AELC": 15
-        }]
-    }, {
+        }
+    },
+    "8408.10.99": {
         "product": "Motores de diesel",
-        "fraction": "8408.10.99",
-        "partida": "84.08",
+        "subheader": "84.08",
         "tax": 7,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -502,13 +501,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "8414.30.01": {
         "product": "Bombas de aire o de vacío",
-        "fraction": "8414.30.01",
-        "partida": "84.14",
+        "subheader": "84.14",
         "tax": 20,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -520,13 +519,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "8453.20.01": {
         "product": "Máquinaria para reparación calzado",
-        "fraction": "8453.20.01",
-        "partida": "84.53",
+        "subheader": "84.53",
         "tax": 0,
-        "fta": [{
+        "fta": {
             "ACE 66": 0,
             "ISRAEL": 0,
             "TLCAN": 0,
@@ -538,13 +537,13 @@
             "CHILE": 0,
             "JAPÓN": 0,
             "AELC": 0
-        }]
-    }, {
+        }
+    },
+    "8471.41.01": {
         "product": "Máquinas para el procesamiento de datos",
-        "fraction": "8471.41.01",
-        "partida": "84.71",
+        "subheader": "84.71",
         "tax": 0,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -556,13 +555,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "8473.10.99": {
         "product": "Partes y accesorios para máquinas y aparatos de oficina",
-        "fraction": "8473.10.99",
-        "partida": "84.73",
+        "subheader": "84.73",
         "tax": 7,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -574,13 +573,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "8481.10.01": {
         "product": "Artículos de grifería",
-        "fraction": "8481.10.01",
-        "partida": "84.81",
+        "subheader": "84.81",
         "tax": 10,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -592,13 +591,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "8504.21.01": {
         "product": "Transformadores eléctricos",
-        "fraction": "8504.21.01",
-        "partida": "85.04",
+        "subheader": "85.04",
         "tax": 10,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -610,13 +609,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "8517.11.01": {
         "product": "Aparatos eléctricos de telefonía o telegrafía",
-        "fraction": "8517.11.01",
-        "partida": "85.17",
+        "subheader": "85.17",
         "tax": 20,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": 7,
@@ -628,13 +627,13 @@
             "CHILE": null,
             "JAPÓN": 7,
             "AELC": 7
-        }]
-    }, {
+        }
+    },
+    "8529.10.07": {
         "product": "Partes para grabadores y emisores de televisión",
-        "fraction": "8529.10.07",
-        "partida": "85.29",
+        "subheader": "85.29",
         "tax": 10,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -646,13 +645,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "8536.30.02": {
         "product": "Aparatos para corte o conexión de circuitos eléctricos",
-        "fraction": "8536.30.02",
-        "partida": "85.36",
+        "subheader": "85.36",
         "tax": 10,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -664,13 +663,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "8542.31.01": {
         "product": "Circuitos microestructuras electrónicas",
-        "fraction": "8542.31.01",
-        "partida": "85.42",
+        "subheader": "85.42",
         "tax": 0,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -682,13 +681,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "8544.19.01": {
         "product": "Conductores aislados para electricidad",
-        "fraction": "8544.19.01",
-        "partida": "85.44",
+        "subheader": "85.44",
         "tax": 10,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -700,13 +699,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "8701.20.01": {
         "product": "Tractores",
-        "fraction": "8701.20.01",
-        "partida": "87.01",
+        "subheader": "87.01",
         "tax": 50,
-        "fta": [{
+        "fta": {
             "ACE 66": 30,
             "ISRAEL": 20,
             "TLCAN": 15,
@@ -718,13 +717,13 @@
             "CHILE": 30,
             "JAPÓN": 25,
             "AELC": 20
-        }]
-    }, {
+        }
+    },
+    "8704.21.03": {
         "product": "Vehículos para transporte de mercancías",
-        "fraction": "8704.21.03",
-        "partida": "87.04",
+        "subheader": "87.04",
         "tax": 50,
-        "fta": [{
+        "fta": {
             "ACE 66": 30,
             "ISRAEL": 20,
             "TLCAN": 15,
@@ -736,13 +735,13 @@
             "CHILE": 25,
             "JAPÓN": 25,
             "AELC": 20
-        }]
-    }, {
+        }
+    },
+    "8708.10.03": {
         "product": "Partes y accesorios de vehículos",
-        "fraction": "8708.10.03",
-        "partida": "87.08",
+        "subheader": "87.08",
         "tax": 10,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -754,13 +753,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "9013.20.01": {
         "product": "Dispositivos de cristal líquido",
-        "fraction": "9013.20.01",
-        "partida": "90.13",
+        "subheader": "90.13",
         "tax": 0,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -772,13 +771,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "9018.13.01": {
         "product": "Aparatos de medicina o veterinaria",
-        "fraction": "9018.13.01",
-        "partida": "90.18",
+        "subheader": "90.18",
         "tax": 7,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -790,13 +789,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "9026.10.01": {
         "product": "Instrumentos para control de fluidos",
-        "fraction": "9026.10.01",
-        "partida": "90.26",
+        "subheader": "90.26",
         "tax": 7,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -808,13 +807,13 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
-    }, {
+        }
+    },
+    "9027.10.01": {
         "product": "Instrumentos y aparatos para análisis físicos o químicos",
-        "fraction": "9027.10.01",
-        "partida": "90.27",
+        "subheader": "90.27",
         "tax": 0,
-        "fta": [{
+        "fta": {
             "ACE 66": null,
             "ISRAEL": null,
             "TLCAN": null,
@@ -826,6 +825,6 @@
             "CHILE": null,
             "JAPÓN": null,
             "AELC": null
-        }]
+        }
     }
-]
+}
