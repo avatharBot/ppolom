@@ -4,6 +4,7 @@ from selectors import RankSelector
 from crossover import OnePointCrossover
 from chromosome import Chromosome
 from mutation import Mutation
+from fitness import FitnessFunction
 import random
 
 
@@ -21,7 +22,7 @@ class GeneticAlgorithm(object):
         self.generations = []
         self.maximize = maximize
 
-    def evolve(self, fitness_function, num_generations=10):
+    def evolve(self, fitness_obj=FitnessFunction, num_generations=10):
         # initialize population
         population = []
         for _ in range(self.population_size):
@@ -36,7 +37,7 @@ class GeneticAlgorithm(object):
 
             # calculate fitness for population
             for chromosome in population:
-                chromosome.fitness = fitness_function(chromosome)
+                chromosome.fitness = fitness_obj.evaluate(chromosome)
 
             # select parents for generation
             parents = self.selector.select_pairs(population=population)
@@ -69,7 +70,7 @@ class GeneticAlgorithm(object):
 
         # calculate fitness for last generation
         for chromosome in population:
-            chromosome.fitness = fitness_function(chromosome)
+            chromosome.fitness = fitness_obj.evaluate(chromosome)
         return population
 
     def best_individual(self, population):

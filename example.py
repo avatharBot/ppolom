@@ -2,13 +2,16 @@ __author__ = 'avathar'
 
 from darwin.ga import GeneticAlgorithm
 from darwin.genotype import Genotype
+from darwin.fitness import FitnessFunction
 
 
-def fitness(chromosome):
-    value = 0
-    for locus in chromosome.genes:
-        value += locus
-    return value
+class TestFitness(FitnessFunction):
+
+    def evaluate(self, chromosome):
+        value = 0
+        for locus in chromosome.genes:
+            value += locus
+        return value
 
 
 def darwin_test():
@@ -26,7 +29,7 @@ def darwin_test():
                           crossover_rate=0.6,
                           mutation_rate=0.02,
                           maximize=True)
-    best_generation = ga.evolve(fitness_function=fitness,
+    best_generation = ga.evolve(fitness_obj=TestFitness(),
                                 num_generations=5000)
 
     fittest = ga.best_individual(best_generation)

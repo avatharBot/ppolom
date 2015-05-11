@@ -4,13 +4,9 @@ import json
 import numpy as np
 from darwin.ga import GeneticAlgorithm
 from darwin.genotype import Genotype
+from darwin.fitness import FitnessFunction
 
-
-distances = list()
-trade_agreements = list()
-quotas = list()
-products = list()
-item = '0708.20.01'
+item = '1005.90.03'
 
 
 def read_distance():
@@ -30,58 +26,53 @@ def read_file(filename):
         return json.load(input_file)
 
 
-def fitness_function(chromosome):
-    fitness_value = 0
-    global distances
-    global trade_agreements
-    global quotas
-    global products
-    global item
-    country_code = chromosome.genes[0]
-    quantity = chromosome.genes[1]
-    tax = 0
-    item_fta = None
-    item_quota = 0
-    # get distance to country
-    country_distance = distances[country_code]['distance']
-    # find tax for product
-    for fta, countries in trade_agreements.items():
-        if country_code in countries:
-            tax = products[item]['fta'][fta]
-            item_fta = fta
-        else:
-            tax = products[item]['tax']
-    if tax is None:
-        tax = products[item]['tax']
-    if item in quotas:
-        item_quota = quotas[item]['quota']
-        if not isinstance(item_quota, int):
-            if item_fta is not None and item_fta in item_quota:
-                item_quota = quotas[item]['quota'][item_fta]
-            else:
-                item_quota = 0
+class PpolomFitness(FitnessFunction):
+    def __init__(self):
+        self.distances = read_distance()
+        self.trade_agreements = read_file('trade_agreements.json')
+        self.quotas = read_file('quotas.json')
+        self.products = read_file('products.json')
 
-    quota_delta = abs(item_quota - quantity)
-    fitness_value = country_distance + quota_delta + (tax*quota_delta)
-    return fitness_value
+    def evaluate(self, chromosome):
+        country_code = chromosome.genes[0]
+        quantity = chromosome.genes[1]
+        tax = 0
+        item_fta = None
+        item_quota = 0
+        # get distance to country
+        country_distance = self.distances[country_code]['distance']
+        # find tax for product
+        for fta, countries in self.trade_agreements.items():
+            if country_code in countries:
+                tax = self.products[item]['fta'][fta]
+                item_fta = fta
+            else:
+                tax = self.products[item]['tax']
+        if tax is None:
+            tax = self.products[item]['tax']
+        if item in self.quotas:
+            item_quota = self.quotas[item]['quota']
+            if not isinstance(item_quota, int):
+                if item_fta is not None and item_fta in item_quota:
+                    item_quota = self.quotas[item]['quota'][item_fta]
+                else:
+                    item_quota = 0
+
+        quota_delta = abs(item_quota - quantity)
+        fitness_value = country_distance + quota_delta + (tax*quota_delta)
+        return fitness_value
 
 
 def main():
-    global distances
-    global trade_agreements
-    global quotas
-    global products
-    distances = read_distance()
-    trade_agreements = read_file('trade_agreements.json')
-    quotas = read_file('quotas.json')
-    products = read_file('products.json')
+
+    ppplom_fitness = PpolomFitness()
 
     labels = [
         'code',
         'units',
     ]
     values = [
-        [code for code in distances.keys()],
+        [code for code in ppplom_fitness.distances.keys()],
         [i for i in range(1000, 10000000, 1000)]
     ]
 
@@ -91,7 +82,7 @@ def main():
                           crossover_rate=0.6,
                           mutation_rate=0.02,
                           maximize=False)
-    best_generation = ga.evolve(fitness_function=fitness_function,
+    best_generation = ga.evolve(fitness_obj=ppplom_fitness,
                                 num_generations=500)
 
     print "Best Generation "
@@ -106,8 +97,8 @@ def main():
 
     fittest = ga.best_individual(best_generation)
     print " Values for fittest individual"
-    print "\tcountry:", distances[fittest['code']]['country']
-    print "\tunits:", fittest['units']
+    print "\tcountry:", ppplom_fitness.distances[fittest['code']]['country']
+    print "\tunits:", fittest['units'],
 
 if __name__ == '__main__':
     main()
